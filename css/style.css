@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body
+{
+    margin: 0;
+    background: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+}
+.container
+{
+    padding: 15px 0;
+    margin: 0;
+    overflow: hidden;
+}
+.top-notification-example
+{
+    background: #ffffff;
+}
+.top-notification-example div
+{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 0;
+}
+.top-notification-example div h1
+{
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.top-notification-example div p
+{
+    padding: 15px;
+}
+.top-notification-example img
+{
+    margin: 15px;
+    box-shadow: 0 7px 7px black;
+    animation: slideUp 1s;
+}
+.title-container-first
+{
+    text-align: center;
+    font-size: 40pt;
+    font-weight: 300;
+}
+.button
+{
+    padding: 15px;
+    color: #8aa5fe;
+}
+.slideup
+{
+    animation: slideUp .5s;
+}
+.next-notification
+{
+    background: #e89489;
+    color: #ffffff;
+}
+.next-notification div
+{
+    display: inline-block;
+}
+.next-notification div h1
+{
+    padding: 15px;
+}
+.next-notification div p
+{
+    padding: 15px;
+}
+.code-performance
+{
+    display: inline-block;
+    padding: 35px;
+    margin: 15px;
+    font-size: 26pt;
+    background: #ffffff;
+    color: #000;
+    float: right;
+}
+.delay-cursor
+{
+    animation: cursor .5s infinite;
+}
+@keyframes cursor {
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    from
+    {
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
