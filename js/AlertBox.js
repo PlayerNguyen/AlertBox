@@ -1,6 +1,6 @@
 /**
  * Created by PNGM on 1/16/2017.
- * This is for public version. All your fucking code it avalable for that!
+ * This is for public version. All your fucking code it available for that!
  */
     // Now let's start with the config
 

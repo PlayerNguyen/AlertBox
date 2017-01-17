@@ -9,26 +9,42 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1 class="title-container-first">Alert Box JS</h1>
+    <div class="container top-tiitle">
+        <h1 class="title-container-first">Alert Box JS <span class="delay-cursor">|</span></h1>
     </div>
     <div class="container top-notification-example">
         <div>
-            <img src="img/demo_01.PNG" alt="Services">
+            <img onclick="window.location.href = 'index.html';" src="img/demo_01.PNG" alt="Services">
         </div>
        <div>
            <h1 class="slideup">Simply and easily</h1>
            <br>
            <p class="slideup">Alert Box is scripts to take easily to make stylish alert.</p>
-           <a href="https://github.com/" class="button slideup">Download now</a>
+           <a href="https://github.com/PlayerNguyen/AlertBox" class="button slideup">Download now</a>
+           <a href="demo.html" class="button slideup">Try some demo</a>
        </div>
     </div>
     <div class="container next-notification">
         <div>
             <h1 class="slideup">Just using JS</h1>
+            <p>Keep and save your code, just using simple code<br> <code>new AlertBox().showMessage('your-text-in-this-content');</code></p>
         </div>
         <div class="code-performance">
             new <span style="color: #d77dca;">AlertBox</span>().<span style="color: #73eaac;">showMessage</span>('<span style="color: #804036">text</span>');<span class="delay-cursor">|</span>
+        </div>
+    </div>
+    <div class="container more-style">
+        <div style="width:40%;" class="code-performance left-float">
+            <span style="color: #8bfa70;">// Background theme: black - light</span> <br>
+            <span style="color:#632012;">backgroundTheme</span>: <span style="color:seagreen;">"black"</span>, <br>
+            <span style="color: #8bfa70;">// Opacity Background</span> <br>
+            <span style="color:#632012;">opacityBackground</span>: <span style="color:seagreen;">50</span>, <br>
+            <span style="color:#8bfa70;">// Width Of Box</span> <br>
+            <span style="color:#632012;">widthBox</span>: <span style="color:seagreen;">"50%"</span> <br>
+        </div>
+        <div>
+            <h1 class="slideup">Config</h1>
+            <p class="slideup">Started with more configs about the box. I'll update more config than I can. But you can change your style with <code>AlertBox.css</code> in folder <code>/css</code>. Remind me, <code>width</code> and <code>background</code> must be use with <code>!important</code> css code.</p>
         </div>
     </div>
     <div id="alertbox"><div id="alertbox-in"> <p id="alertbox-title"></p> <hr id="alertbox-break"> <p id="alertbox-message"></p> <a id="alertbox-close-button"></a> </div></div>
