@@ -13,7 +13,7 @@ To use it, just use
 ```new AlertBox().showMessage('message');```
 and add
 ```<div id="alertbox"><div id="alertbox-in"> <p id="alertbox-title"></p> <hr id="alertbox-break"> <p id="alertbox-message"></p> <a id="alertbox-close-button"></a> </div></div>```
-and you can get more types of function, scroll down to Advanced Alert Box tab
+and you can get more types of function, scroll down and watch Advanced Alert Box tab
 # Advanced Alert Box
 This is list in version beta build **1**
 
